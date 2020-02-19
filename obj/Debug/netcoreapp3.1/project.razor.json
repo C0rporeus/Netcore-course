@@ -20516,6 +20516,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Escuela\\Index.cshtml",
+      "TargetPath": "Views\\Escuela\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
