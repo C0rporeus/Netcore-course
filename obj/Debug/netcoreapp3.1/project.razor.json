@@ -20501,6 +20501,16 @@
   "RootNamespace": "NetCore_Estudio",
   "Documents": [
     {
+      "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Asignatura\\Index.cshtml",
+      "TargetPath": "Views\\Asignatura\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Shared\\AsignaturaSimple.cshtml",
+      "TargetPath": "Views\\Shared\\AsignaturaSimple.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -20526,8 +20536,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Shared\\_Layout2.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Asignatura\\Asignaturas.cshtml",
+      "TargetPath": "Views\\Asignatura\\Asignaturas.cshtml",
       "FileKind": "mvc"
     },
     {

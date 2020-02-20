@@ -34,3 +34,7 @@ E:\ProyectosdeProgramacion\Csharp\NetCore-Estudio\obj\Debug\netcoreapp3.1\NetCor
 E:\ProyectosdeProgramacion\Csharp\NetCore-Estudio\obj\Debug\netcoreapp3.1\NetCore-Estudio.pdb
 E:\ProyectosdeProgramacion\Csharp\NetCore-Estudio\obj\Debug\netcoreapp3.1\NetCore-Estudio.csproj.CopyComplete
 E:\ProyectosdeProgramacion\Csharp\NetCore-Estudio\obj\Debug\netcoreapp3.1\Razor\Views\Escuela\Index.cshtml.g.cs
+e:\ProyectosdeProgramacion\Csharp\NetCore-Estudio\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout2.cshtml.g.cs
+e:\ProyectosdeProgramacion\Csharp\NetCore-Estudio\obj\Debug\netcoreapp3.1\Razor\Views\Asignatura\Index.cshtml.g.cs
+E:\ProyectosdeProgramacion\Csharp\NetCore-Estudio\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AsignaturaSimple.cshtml.g.cs
+E:\ProyectosdeProgramacion\Csharp\NetCore-Estudio\obj\Debug\netcoreapp3.1\Razor\Views\Asignatura\Asignaturas.cshtml.g.cs

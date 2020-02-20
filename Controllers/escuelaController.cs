@@ -7,10 +7,16 @@ namespace NetCore_Estudio.Controllers
     {
         public IActionResult Index()
         {
-            var escuela = new EscuelaModel();
-            escuela.AñoFundacion = 2020;
-            escuela.EscuelaId= Guid.NewGuid().ToString();
+            var escuela = new Escuela();
+            escuela.AñoDeCreación = 2020;
+            escuela.UniqueId= Guid.NewGuid().ToString();
             escuela.Nombre= "Horizonte del sol";
+            escuela.Direccion= "Cll 81 - 20";
+            escuela.Pais= "Peru";
+            escuela.Ciudad="Lima";
+            escuela.TipoEscuela=TiposEscuela.Primaria;
+            ViewBag.Dinamico = "La monja";
+
 
             return View(escuela);
         } 

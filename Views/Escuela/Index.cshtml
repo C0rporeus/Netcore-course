@@ -1,7 +1,17 @@
 ﻿@{
     ViewData["Title"] = "Informacion escuela";
+    // Layout = "_layout2";
 }
 
-<h1>Escuela</h1>
-<h2>Nombre: @Model.Nombre</h2>
-<p><strong>Año fundacion: @Model.AñoFundacion</strong></p>
+<h1>@ViewData["Title"]</h1>
+<h2>Nombre:  @Model.Nombre</h2>
+<h3>Tipo de Escuela: @Model.TipoEscuela</h3>
+<address>
+    <p>Direccion: @Model.Direccion</p>
+    <p>Pais: @Model.Pais</p>
+    <p>Ciudad: @Model.Ciudad</p>
+    <p>Estos datos provienen de la base de datos de acuerdo a los modelos desplegados</p>
+</address>
+<p><strong>Año fundacion: @Model.AñoDeCreación</strong></p>
+
+<p><i>@ViewBag.Dinamico</i></p>
