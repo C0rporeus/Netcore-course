@@ -13,7 +13,7 @@ namespace NetCore_Estudio.Controllers
                 new Asignatura
                 {
                     Nombre = "Ingles",
-                    UniqueId = Guid.NewGuid().ToString()
+                    Id = Guid.NewGuid().ToString()
                 }
             );
         }
@@ -23,13 +23,13 @@ namespace NetCore_Estudio.Controllers
 
             var listadeAsignaturas = new List<Asignatura>() {
                 new Asignatura{Nombre="Matematicas",
-                               UniqueId=Guid.NewGuid().ToString()},
+                               Id=Guid.NewGuid().ToString()},
                 new Asignatura{Nombre="Ciencias",
-                               UniqueId=Guid.NewGuid().ToString()},
+                               Id=Guid.NewGuid().ToString()},
                 new Asignatura{Nombre="Español",
-                               UniqueId=Guid.NewGuid().ToString()},
+                               Id=Guid.NewGuid().ToString()},
                 new Asignatura{Nombre="Ingles",
-                               UniqueId=Guid.NewGuid().ToString()}
+                               Id=Guid.NewGuid().ToString()}
             };
             ViewBag.Dinamico = "Random";
             ViewBag.Fecha = DateTime.Now;

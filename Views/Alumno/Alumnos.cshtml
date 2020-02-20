@@ -1,0 +1,13 @@
+﻿@model List<Alumno>
+@{
+    ViewData["Title"] = "Informacion Alumnos";
+    // Layout = "_layout2";
+}
+
+<h1 class="display-4">@ViewData["Title"]</h1>
+
+<strong>(tag helper) Desde la vista parcial o componente</strong>
+
+<partial name="ListaObjetoEscuela" />
+<p><i>@ViewBag.Fecha</i></p>
+

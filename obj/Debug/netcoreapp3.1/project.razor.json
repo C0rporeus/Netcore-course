@@ -20501,13 +20501,13 @@
   "RootNamespace": "NetCore_Estudio",
   "Documents": [
     {
-      "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Asignatura\\Index.cshtml",
-      "TargetPath": "Views\\Asignatura\\Index.cshtml",
+      "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Shared\\ObjetoEscuelaUnitario.cshtml",
+      "TargetPath": "Views\\Shared\\ObjetoEscuelaUnitario.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Shared\\AsignaturaSimple.cshtml",
-      "TargetPath": "Views\\Shared\\AsignaturaSimple.cshtml",
+      "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Asignatura\\Index.cshtml",
+      "TargetPath": "Views\\Asignatura\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20538,6 +20538,21 @@
     {
       "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Shared\\_Layout2.cshtml",
       "TargetPath": "Views\\Shared\\_Layout2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Shared\\ListaObjetoEscuela.cshtml",
+      "TargetPath": "Views\\Shared\\ListaObjetoEscuela.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Alumno\\Alumnos.cshtml",
+      "TargetPath": "Views\\Alumno\\Alumnos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Alumno\\Index.cshtml",
+      "TargetPath": "Views\\Alumno\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -7,10 +7,8 @@
 <h1 class="display-4">@ViewData["Title"]</h1>
 
 <strong>(tag helper) Desde la vista parcial o componente</strong>
-@foreach(var asignatura in Model)
-{
-    <partial name="AsignaturaSimple" model="asignatura" />
-}
+
+<partial name="ListaObjetoEscuela" />
 
 <p><i>@ViewBag.Fecha</i></p>
 
