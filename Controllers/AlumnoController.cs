@@ -11,31 +11,15 @@ namespace NetCore_Estudio.Controllers
         public IActionResult Index()
         {
             return View(
-                new Alumno
-                {
-                    Nombre = "Juan Jose",
-                    Id = Guid.NewGuid().ToString()
-                }
+                _context.Alumnos.FirstOrDefault()
             );
         }
         public IActionResult Alumnos()
         {
-
-            var listadeAlumnos = GenerarAlumnosAlAzar();
-            /* var listadeAlumnos = new List<Alumno>() {
-                new Alumno{Nombre="Mateo",
-                               UniqueId=Guid.NewGuid().ToString()},
-                new Alumno{Nombre="Andres",
-                               UniqueId=Guid.NewGuid().ToString()},
-                new Alumno{Nombre="Jaime",
-                               UniqueId=Guid.NewGuid().ToString()},
-                new Alumno{Nombre="Julian",
-                               UniqueId=Guid.NewGuid().ToString()}
-            }; */
             ViewBag.Dinamico = "Random";
             ViewBag.Fecha = DateTime.Now;
 
-            return View("Alumnos", listadeAlumnos);
+            return View("Alumnos", _context.Alumnos);
         }
 
         private List<Alumno> GenerarAlumnosAlAzar()
@@ -53,6 +37,11 @@ namespace NetCore_Estudio.Controllers
                                };
 
             return listaAlumnos.OrderBy((al) => al.Id).ToList();
+        }
+        private EscuelaContext _context;
+        public AlumnoController(EscuelaContext context)
+        {
+            _context = context;
         }
     }
 }

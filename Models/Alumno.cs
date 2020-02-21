@@ -7,11 +7,8 @@ namespace NetCore_Estudio.Models
     // implmentacion de la herencia despues de los dos puntos en el nombre de la clase
     public class Alumno: ObjetoEscuelaBase
     {
-        public List<Evaluacion> Evaluacion {get; set;} = new List<Evaluacion>();
-
-        internal static object Cast<T>()
-        {
-            throw new NotImplementedException();
-        }
+        public string CursoId { get; set; }
+        public Curso Curso {get; set;}
+        public List<Evaluacion> Evaluacion {get; set;} 
     }
 }
