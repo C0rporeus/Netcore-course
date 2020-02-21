@@ -20506,6 +20506,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Curso\\Cursos.cshtml",
+      "TargetPath": "Views\\Curso\\Cursos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Asignatura\\Index.cshtml",
       "TargetPath": "Views\\Asignatura\\Index.cshtml",
       "FileKind": "mvc"
@@ -20533,6 +20538,11 @@
     {
       "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\ProyectosdeProgramacion\\Csharp\\NetCore-Estudio\\Views\\Curso\\Index.cshtml",
+      "TargetPath": "Views\\Curso\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

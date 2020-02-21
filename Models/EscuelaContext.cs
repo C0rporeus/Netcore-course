@@ -29,9 +29,6 @@ namespace NetCore_Estudio.Models
             escuela.Ciudad = "Lima";
             escuela.TipoEscuela = TiposEscuela.Primaria;
 
-            modelBuilder.Entity<Escuela>()
-                        .HasData(escuela);
-
             // Cargar cursos escuela
             var cursos = CargarCursos(escuela);
 
@@ -41,6 +38,10 @@ namespace NetCore_Estudio.Models
             // Cargar alumnos
             var alumnos = CargarAlumnos(cursos);
 
+            modelBuilder.Entity<Escuela>().HasData(escuela);
+            modelBuilder.Entity<Curso>().HasData(cursos.ToArray());
+            modelBuilder.Entity<Asignatura>().HasData(asignaturas.ToArray());
+            modelBuilder.Entity<Alumno>().HasData(alumnos.ToArray());
             // Carga de Evaluaciones
 
            /*  modelBuilder.Entity<Asignatura>().HasData(
@@ -117,7 +118,7 @@ namespace NetCore_Estudio.Models
 
                 };
                 listaCompleta.AddRange(tmpList);
-                curso.Asignaturas = tmpList;
+                // curso.Asignaturas = tmpList;
             }
             return listaCompleta;
         }
