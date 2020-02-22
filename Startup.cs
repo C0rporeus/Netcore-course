@@ -32,8 +32,11 @@ namespace NetCore_Estudio
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
             services.AddControllersWithViews();
+            string connString = ConfigurationExtensions.GetConnectionString(this.Configuration, "DefaultConnectionString");
             services.AddDbContext<EscuelaContext>( 
-                options=> options.UseInMemoryDatabase(databaseName: "testdatabase")
+                /* options=> options.UseInMemoryDatabase(databaseName: "testdatabase") */
+               
+                options=> options.UseSqlServer(connString)
             );
         }
         

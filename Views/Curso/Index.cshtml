@@ -5,11 +5,12 @@
 }
 
 <h1 class="display-4">@ViewData["Title"]</h1>
-
+<h3>@ViewBag.mensaje</h3>
 <strong>Relacion de cursos</strong>
 
 <p>Nombre:  @Model.Nombre <br/>
-   Id: @Model.Id
+   Id: @Model.Id <br/>
+   Jornada: @Model.Jornada
 </p>
 <strong>(tag helper) Desde la vista parcial o componente</strong>
 <partial name="ObjetoEscuelaUnitario" />

@@ -6,13 +6,13 @@ namespace NetCore_Estudio.Models
     public abstract class ObjetoEscuelaBase
     {
         public string Id { get; set; }
-        public string Nombre { get; set; }
+        public virtual string Nombre { get; set; }
 
         public ObjetoEscuelaBase()
         {
-            
+            Id = Guid.NewGuid().ToString();
         }
-        // al incluir este atributo se puede depurar mas facilmente la informacion viendo de forma explcita los datos que se requieren
+
         public override string ToString()
         {
             return $"{Nombre},{Id}";

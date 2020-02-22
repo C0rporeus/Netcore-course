@@ -14,6 +14,7 @@ namespace NetCore_Estudio.Controllers
                 _context.Asignaturas.FirstOrDefault()
             );
         } */
+        [Route("Asignatura/{asignaturaId}")]
         [Route("Asignatura/Index")]
         [Route("Asignatura/Index/{asignaturaId?}")]
         public IActionResult Index(string asignaturaId)
